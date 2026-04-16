@@ -26,7 +26,8 @@
 
 ## configuration statique de l'adresse IP
 
-Sélectionner 1 + Entrée
+```
+> Sélectionner 1 + Entrée
     Entrée
     Ipv4_dhcp : Mettre NO
     Ipv6_auto : Mettre NO
@@ -34,13 +35,13 @@ Sélectionner 1 + Entrée
     Save
     Appuyer sur p puis a
 
-Sélectionner Option 2  + Entrée
+> Sélectionner Option 2  + Entrée
     Hostname : truenas2
     Domaine : bts.lan
     ipv4 gateway : 192.168.60.254
     nameserver : 192.168.60.10
     Save
-
+```
 
 ## Enregistrement de la VM dans le DNS sur le serveur AD
 
@@ -49,9 +50,13 @@ Le faire sur la vm svrad22
 
 ## Accès à l'interface Web de Truenas
 
-
+```
 Sur la vm zabbix2, ouvrir le navigateur et rentrer https://truenas2.bts.lan
     Avancé
     Continuer vers truenas.bts.lan (non sécurisé)
     Identifiant : truenas_admin
     Mot de passe : toto
+```
+
+
+    
